@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"last",
+				"last_activity"
+			],
+			[
+				"log",
+				"log	console-log"
+			],
+			[
+				"logs",
+				"logs_retrieved"
+			],
+			[
+				"has",
+				"has_logged_in	statement"
+			],
+			[
+				"middle",
+				"middlewares"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/components/Task.jsx",
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/components/App.jsx",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 397.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 695.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jorgen/repo/devnight",
+		"/home/jorgen/repo/devnight/both",
+		"/home/jorgen/repo/devnight/client",
+		"/home/jorgen/repo/devnight/client/components",
+		"/home/jorgen/repo/devnight/lib",
+		"/home/jorgen/repo/devnight/public",
+		"/home/jorgen/repo/devnight/server"
+	],
+	"file_history":
+	[
+		"/home/jorgen/repo/devnight/client/components/Task.jsx",
+		"/home/jorgen/repo/devnight/client/components/App.jsx",
+		"/home/jorgen/repo/devnight/.meteor/packages",
+		"/home/jorgen/repo/devnight/client/main.jsx",
+		"/home/jorgen/repo/devnight/client/main.html",
+		"/home/jorgen/repo/devnight/client/styles.styl",
+		"/home/jorgen/repo/devnight/devnight.sublime-project",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companyInfo.jade",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companyTrading.jade",
+		"/home/jorgen/repo/meteorstockexchange/lib/models/company.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companyHistory.jade",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companyHistory.js",
+		"/home/jorgen/repo/meteorstockexchange/server/publish/priceHistory.js",
+		"/home/jorgen/repo/meteorstockexchange/client/startup/warning.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/company.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/company.jade",
+		"/home/jorgen/repo/meteorstockexchange/client/components/common/layouts/baseLayout.jade",
+		"/home/jorgen/repo/meteorstockexchange/client/router.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companyTrading.js",
+		"/home/jorgen/repo/meteorstockexchange/server/hooks/orders.js",
+		"/home/jorgen/repo/meteorstockexchange/server/startup/traders.js",
+		"/home/jorgen/repo/meteorstockexchange/client/styles.styl",
+		"/home/jorgen/repo/meteorstockexchange/client/components/trader/traders.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/trader/traders.jade",
+		"/home/jorgen/repo/meteorstockexchange/lib/models/order.js",
+		"/home/jorgen/repo/meteorstockexchange/server/hooks/user.js",
+		"/home/jorgen/repo/meteorstockexchange/server/components/order.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/front/front.jade",
+		"/home/jorgen/repo/meteorstockexchange/server/hooks/company.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/front/front.js",
+		"/home/jorgen/repo/meteorstockexchange/server/components/user.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/trader/trader.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/trader/trader.jade",
+		"/home/jorgen/repo/meteorstockexchange/server/publish/stock.js",
+		"/home/jorgen/repo/meteorstockexchange/both/astronomy.js",
+		"/home/jorgen/repo/meteorstockexchange/server/publish/users.js",
+		"/home/jorgen/repo/meteorstockexchange/lib/models/stock.js",
+		"/home/jorgen/repo/meteorstockexchange/server/publish/orders.js",
+		"/home/jorgen/repo/meteorstockexchange/lib/models/user.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/index/indexes.jade",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companies.jade",
+		"/home/jorgen/repo/meteorstockexchange/lib/models/index.js",
+		"/home/jorgen/repo/meteorstockexchange/server/startup/companies.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/index/indexes.js",
+		"/home/jorgen/repo/meteorstockexchange/server/publish/index.js",
+		"/home/jorgen/repo/meteorstockexchange/client/components/company/companies.js",
+		"/home/jorgen/repo/meteorstockexchange/lib/models/event.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/manager/views.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/main/views.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/notification/models.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/accounting/calculation.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/notification/templates/notification/create.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/notification/forms.py",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/util.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/utils/util.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/overview/templates/overview/info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/budget/templates/budget/info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/production/templates/production/product_info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/loan/templates/loan/info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/contract/templates/contract/contract_info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/accounting/templates/accounting/cashflow_info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/forecast/templates/forecast/forecast_info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/accounting/templates/accounting/balance_info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/accounting/templates/accounting/accounting_info_en.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/notification/views.py",
+		"/home/jorgen/repo/bedsim/bedsim/middlewares.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/users/models.py",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/analytics.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/lang/no.json",
+		"/home/jorgen/repo/bedsim/bedsim/apps/lang/en.json",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/contract.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/utils/templatetags/trans.py",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/production.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/exercise/forms.py",
+		"/home/jorgen/repo/bedsim/conf/nginx.conf",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/highscore.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/main/templates/main/highscore.html",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/budget.js",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/game.js",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/base.js",
+		"/home/jorgen/repo/bedsim/bedsim/apps/contract/templates/contract/contract_p2.html",
+		"/home/jorgen/repo/bedsim/logs/activity/none_admin.log",
+		"/home/jorgen/repo/bedsim/logs/activity/class_2_sigel.log",
+		"/home/jorgen/repo/bedsim/bedsim/settings/common.py",
+		"/home/jorgen/repo/bedsim/bedsim/assets/sass/_base.scss",
+		"/home/jorgen/repo/bedsim/bedsim/apps/manager/templates/manager/analytics.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/manager/templates/manager/class.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/manager/templates/manager/group_status.html",
+		"/home/jorgen/repo/bedsim/logs/activity/class_2/sigel.log",
+		"/home/jorgen/repo/bedsim/bedsim/apps/manager/urls.py",
+		"/home/jorgen/repo/bedsim/bedsim/urls.py",
+		"/home/jorgen/repo/bedsim/logs/activity/class_2_siah.log",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/manager.js",
+		"/home/jorgen/repo/bedsim/bedsim/assets/js/forecast.js",
+		"/home/jorgen/repo/bedsim/bedsim/settings/dev.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/production/models.py",
+		"/home/jorgen/repo/bedsim/bedsim/apps/production/views.py",
+		"/home/jorgen/repo/bedsim/logs/activity/none_anon.log",
+		"/home/jorgen/repo/bedsim/.gitignore",
+		"/home/jorgen/repo/bedsim/bedsim/assets/sass/game.scss",
+		"/home/jorgen/repo/bedsim/bedsim/apps/users/templates/users/change_name.html",
+		"/home/jorgen/repo/bedsim/logs/django_request.log",
+		"/home/jorgen/repo/bedsim/bedsim/apps/accounting/templates/accounting/accounting.html",
+		"/home/jorgen/repo/bedsim/bedsim/apps/budget/templates/budget/budget.html",
+		"/home/jorgen/repo/bedsim/bedsim/assets/css/game.css",
+		"/home/jorgen/repo/bedsim/setup.bash",
+		"/home/jorgen/Programs/test.bash"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>, -/home/jorgen/repo/meteorstockexchange/.meteor/*",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}",
+			" {",
+			";",
+			"stocks in",
+			".changeWallet",
+			"Changing Wallet",
+			"changing wallet",
+			"sellOrder",
+			".ticker",
+			"company",
+			"profile",
+			"after",
+			"After insert",
+			"stocks",
+			"date",
+			"priceHistory",
+			"volume",
+			"orderBy",
+			"blue",
+			"price",
+			"attr",
+			"showActive",
+			"boolean",
+			"findName",
+			".subscribe(\"traders",
+			"index",
+			"company",
+			"intro",
+			"template_data[\"",
+			"[",
+			"virt",
+			"Repayment",
+			"research cost",
+			"sales reven",
+			"sales inco",
+			"Raw material",
+			"surplus",
+			"Budgeted sur",
+			":",
+			"send_mail",
+			"mail",
+			"alert",
+			"BooleanField",
+			"verk",
+			"verks",
+			"answer",
+			"setInter",
+			" console.log",
+			"console",
+			"/*!",
+			"console",
+			"console.log",
+			" console.log",
+			"console.lo",
+			"console",
+			"click",
+			"no_accounting_comparison",
+			"logged",
+			"trans",
+			"json",
+			"graph",
+			"len",
+			"i",
+			"settings",
+			"budget",
+			"basic-table",
+			"print research",
+			"print",
+			"run Q1",
+			"print self.group",
+			"print in_class.group",
+			"print c.group",
+			".group",
+			"print",
+			"logger",
+			".formTable",
+			"mainView",
+			"item"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/components/Task.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/components/App.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								532,
+								532
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "devnight.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 310.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
