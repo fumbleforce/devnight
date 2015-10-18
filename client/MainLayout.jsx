@@ -1,6 +1,6 @@
 MainLayout = React.createClass({
   render() {
-    return <div>
+    return <div className="viewport">
       <Nav />
       <main>
         {this.props.content}

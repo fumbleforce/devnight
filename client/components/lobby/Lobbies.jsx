@@ -1,4 +1,3 @@
-LobbyCollection = new Mongo.Collection("lobby");
 
 Lobbies = React.createClass({
   mixins: [ReactMeteorData],
@@ -8,9 +7,15 @@ Lobbies = React.createClass({
   },
   
   getMeteorData() {
-    return {
-      lobbies: LobbyCollection.find({}, {sort: {createdAt: -1}}).fetch()
+    let data = {};
+    
+    let sub = Meteor.subscribe("lobbies");
+    
+    if (sub.ready()) {
+      data.lobbies = GameCollection.find({ started: false }, {sort: {createdAt: -1}}).fetch()
     }
+    
+    return data;
   },
   
   getInitialState() {
@@ -32,19 +37,22 @@ Lobbies = React.createClass({
   
   renderLobbies() {
     return this.data.lobbies.map((lobby) => {
-      return <Lobby key={lobby._id} lobby={lobby} />;
+      return <LobbyItem key={lobby._id} lobby={lobby} />;
     });
   },
   
   render() {
     return (
       <div>
-        <h1>
-            Choose a lobby to join, or <button onClick={this.newLobby} className="btn waves-effect waves-light">create one</button>
-        </h1>
-        
-        <div className="container">
-            {this.renderLobbies()}
+        <heading>
+          <h1>
+              Choose a lobby to join, or
+          </h1>
+          <a onClick={this.newLobby} className="btn-large waves-effect waves-light">create one</a>
+        </heading>
+        <br />
+        <div className="collection" style={{marginTop: "40px"}}>
+            {this.data.lobbies? this.renderLobbies() : <Loader />}
         </div>
         
       </div>

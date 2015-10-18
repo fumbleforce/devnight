@@ -1,5 +1,5 @@
 Login = React.createClass({
-  mixins: [ReactMeteorData, React.addons.LinkedStateMixin],
+  mixins: [React.addons.LinkedStateMixin],
   
   getInitialState() {
     return {
