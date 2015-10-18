@@ -33,6 +33,16 @@ Lobby = React.createClass({
     return data;
   },
   
+  componentDidMount() {
+    Tracker.autorun(() => {
+      let game = GameCollection.findOne(FlowRouter.current().params.lobby);
+      console.log("Game is ready?", game && game.started);
+      if (game && game.started) {
+        FlowRouter.go("/game/" + game._id);
+      }
+    });
+  },
+  
   // Should remove current player
   // and remove lobby if player is the
   // creator
@@ -91,12 +101,12 @@ LobbyPlayer = React.createClass({
   
   renderReadyButton() {
     if (this.props.player.ready) {
-      return <a onClick={this.setUnReady} className="secondary-content btn">
+      return <a onClick={this.setUnReady} className="secondary-content waves-effect waves-light btn">
         <i className="material-icons left">clear</i>
         Unready
       </a>
     } else {
-      return <a onClick={this.setReady} className="secondary-content btn">
+      return <a onClick={this.setReady} className="secondary-content waves-effect waves-light btn">
         <i className="material-icons left">done</i>
         Ready
       </a>
@@ -105,7 +115,7 @@ LobbyPlayer = React.createClass({
   
   render() {
     return <li className="collection-item avatar" style={{minHeight: "65px"}}>
-      <i className="material-icons circle">assignment_ind</i>
+      <i className={"material-icons circle " + (this.props.player.ready?'green':'')}>assignment_ind</i>
       
       <h4 style={{margin:0, textAlign:"left"}}>{this.props.player.name}</h4>
       

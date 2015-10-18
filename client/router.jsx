@@ -46,12 +46,12 @@ FlowRouter.route("/lobbies/:lobby", {
   }
 });
 
-FlowRouter.route("/game", {
+FlowRouter.route("/game/:gameId", {
   name: "game",
   
   action: function() {
     ReactLayout.render(MainLayout, {
-      content: <Frontpage />
+      content: <Game />
     });
   }
 });
